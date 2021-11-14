@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["dom","es2020",],
+    "module": "es2020",
+    "outDir": "./dist/",
+    "allowJs": true,
+    "checkJs": true,
+    "jsx": "react",
+    "sourceMap": true, // inlineSourcesとinlineSourceMapを有効にしてビルドする
+    "inlineSources": true, // inlineSourcesとinlineSourceMapを有効にしてビルドする
+    "noImplicitAny": true, // 暗黙的に any になる値をエラーにする
+    "allowSyntheticDefaultImports": true, // 次のようにしなくてもよい。import * as React from "react";
+    "moduleResolution": "node", // tsc のモジュール解決の方法
+    "types":["node"],
+  },
+}
