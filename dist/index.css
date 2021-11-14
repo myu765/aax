@@ -1,0 +1,17 @@
+*:focus {
+  outline: none  !important; 
+  -webkit-tap-highlight-color: none !important;
+}
+a {
+  outline: none  !important; 
+  -webkit-tap-highlight-color: none !important;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
