@@ -1,0 +1,25 @@
+*:focus {
+  outline: none  !important; 
+  -webkit-tap-highlight-color: none !important;
+}
+a, a:link, a:visited, a:hover, a:active {
+  color: black;
+  outline: none  !important; 
+  -webkit-tap-highlight-color: none !important;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.rounded-circle, .ReactCrop__crop-selection, .ReactCrop__drag-elements {
+  border-radius: 50%;
+}
+.container-md {
+  overflow-y: scroll;
+}
