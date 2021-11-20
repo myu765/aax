@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import Box from '@mui/material/Box';
+import Home from "./myPage/Home";
 
 class App extends Component {
   render() {
     return (
-      <h1>Hello !</h1>
+      <Box sx={{mx:"auto", maxWidth:"800px", minWidth:"600px"}}>
+        <Home />
+      </Box>
     )
   }
 }

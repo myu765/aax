@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist",
     "start": "webpack-dev-server --open",
     "build": "webpack",
     "build-prod": "webpack --mode=production"
@@ -18,10 +19,21 @@
   "bugs": {
     "url": "https://github.com/myu765/aax/issues"
   },
-  "homepage": "https://github.com/myu765/aax#readme",
+  "homepage": "https://myu765.github.io/aax",
   "dependencies": {
+    "@emotion/react": "^11.6.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.1.0",
+    "@mui/lab": "^5.0.0-alpha.54",
+    "@mui/material": "^5.1.0",
+    "@mui/styled-engine-sc": "^5.1.0",
+    "bootstrap": "^5.1.3",
+    "prop-types": "^15.7.2",
     "react": "^17.0.2",
+    "react-bootstrap": "^2.0.2",
     "react-dom": "^17.0.2",
+    "react-image-crop": "^9.0.5",
+    "styled-components": "^5.3.3",
     "webpack": "^5.64.0",
     "webpack-cli": "^4.9.1"
   },
@@ -29,6 +41,10 @@
     "@types/node": "^16.11.7",
     "@types/react": "^17.0.34",
     "@types/react-dom": "^17.0.11",
+    "@types/react-image-crop": "^8.1.3",
+    "css-loader": "^6.5.1",
+    "gh-pages": "^3.2.3",
+    "style-loader": "^3.3.1",
     "ts-loader": "^9.2.6",
     "typescript": "^4.4.4",
     "webpack-dev-server": "^4.5.0"
